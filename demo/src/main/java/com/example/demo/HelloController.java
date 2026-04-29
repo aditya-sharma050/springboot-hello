@@ -8,7 +8,6 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String sayHello() {
-
          return "Hello this is my github demo project";
     }
 }
